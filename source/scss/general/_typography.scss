@@ -1,0 +1,39 @@
+.site-content {
+
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(30px, 3.472vw, 50px);
+    line-height: 115%;
+    font-family: var(--font-family);
+    color: var(--color-a);
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    width: 100%;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(20px, 2.239vw, 30px);
+    line-height: 120%;
+    text-transform: uppercase;
+    color: var(--color-a);
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(16px, 1.389vw, 20px);
+    line-height: 125%;
+    color: var(--color-a);
+  }
+
+  .border {
+    background: var(--bg-b);
+    border: 2px solid var(--bg-a);
+    border-radius: clamp(30px, 4.478vw, 60px);
+  }
+}
+
